@@ -40,11 +40,6 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Entrar') }}</a>
                             </li>
-                            @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Registrarse') }}</a>
-                                </li>
-                            @endif
                         @else
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
@@ -60,13 +55,16 @@
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
-                                    <form id="create-user" action="{{ route('register') }}" method="GET" style="display: none;">
-                                        @csrf
-                                    </form>
-                                    <a class="dropdown-item" href="{{ route('register') }}"
-                                        onclick="event.preventDefault();document.getElementById('create-user').submit();">
-                                        {{ __('Crear Usuarios') }}
-                                    </a>
+
+                                    @if (Auth::user()->ticketit_admin)
+                                        <a class="dropdown-item" href="{{ route('register') }}"
+                                            onclick="event.preventDefault();document.getElementById('create-user').submit();">
+                                            {{ __('Crear Usuarios') }}
+                                        </a>
+                                        <form id="create-user" action="{{ route('register') }}" method="GET" style="display: none;">
+                                            @csrf
+                                        </form>
+                                    @endif
                                 </div>
                             </li>
                         @endguest
