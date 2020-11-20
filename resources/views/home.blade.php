@@ -8,9 +8,9 @@
                 <div class="card-header">Dashboard</div>
 
                 <div class="card-body">
-                    @if (session('status'))
+                    @if (Auth::check())
                         <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
+                            {{ Auth::user()->name }}
                         </div>
                         You are logged in!
                     @else
