@@ -13,7 +13,7 @@ return [
 
 	'main_route' => '<p><b>Ruta principal de Atencion</b>: Url para la página princial del sistema de atencion (ej. <code>http://url/tickets</code>)</p>', 'admin_route' => '<p><b>Ruta de administración de Ticketit</b>: Url para la página de administración del sistema de casos (ej. <code>http://url/tickets-admin</code>)</p>', 'master_template' => '<p><b>Plantilla que extender</b>: Pantillaa principal de blade a extender</p>', 'email.template' => '<p><b>Plantilla que extender</b>: Plantilla blade para emails a extender </p>', 'email.header' => '<p><img src="http://i.imgur.com/5aJjuZL.jpg"/></p>', 'email.signoff' => '<p><img src="http://i.imgur.com/jONMwgF.jpg"/></p>', 'email.signature' => '<p><img src="http://i.imgur.com/coi3R63.jpg"/></p>', 'email.dashboard' => '<p><img src="http://i.imgur.com/qzNzJD4.jpg"/></p>', 'email.google_plus_link' => '<p><b>Activar icono de enlace</b>: vacío o texto</p><p><img src="http://i.imgur.com/fzyxfSg.jpg"/></p>', 'email.facebook_link' => '<p><b>Activar icono de enlace</b>: vacío o texto</p><p><img src="http://i.imgur.com/FQQzr98.jpg"/></p>', 'email.twitter_link' => '<p><b>Activar icono de enlace</b>: vacío o texto</p><p><img src="http://i.imgur.com/5JmkrF1.jpg"/></p>', 'email.footer' => '', 'email.footer_link' => '', 'email.color_body_bg' => '<p><img src="http://i.imgur.com/KTF7rEJ.jpg"/></p>', 'email.color_header_bg' => '<p><img src="http://i.imgur.com/wenw5H5.jpg"/></p>', 'email.color_content_bg' => '<p><img src="http://i.imgur.com/7r8dAFj.jpg"/></p>', 'email.color_footer_bg' => '<p><img src="http://i.imgur.com/KTjkdSN.jpg"/></p>', 'email.color_button_bg' => '<p><img src="http://i.imgur.com/0TbGIyt.jpg"/></p>', 'default_status_id' => '<p>El estado predeterminado para casos recién creados</p>', 'default_close_status_id' => '<p>El estado predeterminado para cerrar</p>', 'default_reopen_status_id' => '<p>El estado predeterminado para re-aperturas</p>', 'paginate_items' => '<p><b>Total de paginación</b>: Para paginación estándar.</p>', 'length_menu' => '<p><b>Total de paginación</b>: Para la tabla de casos</p>', 'status_notification' => <<<'ENDHTML'
 			<p>
-				<b>Notificación de estado</b>: enviar notificaciones por email al dueño/agente del caso cuando el estado del caso es cambiado
+				<b>Notificación de estado</b>: enviar notificaciones por email al dueño/funcionario del caso cuando el estado del caso es cambiado
 			</p>
 
 			<p>
@@ -46,18 +46,18 @@ ENDHTML
 ENDHTML
 
     , 'assigned_notification' => <<<'ENDHTML'
-			<p><b>Notificar al agente</b>: Para notificar al agente asignado (ya sea por asignación automática o manual) de casos nuevos asignados o casos transferidos</p>
+			<p><b>Notificar al funcionario</b>: Para notificar al funcionario asignado (ya sea por asignación automática o manual) de casos nuevos asignados o casos transferidos</p>
 
 			<p>
-				No notificar al agente: <code>0</code><br>
-				Notificar al agente: <code>1</code>
+				No notificar al funcionario: <code>0</code><br>
+				Notificar al funcionario: <code>1</code>
 			</p>
 ENDHTML
 
     , 'agent_restrict' => <<<'ENDHTML'
-            <p><b>Restricción de agente</b>: Restringir acceso de los agentes a solo los casos que tienen asignados</p>			
+            <p><b>Restricción de funcionario</b>: Restringir acceso de los funcionarios a solo los casos que tienen asignados</p>			
 			<p>
-			    Agente solo puedes accesar sus casos asignados: <code>1</code>				
+			    Funcionario solo puedes accesar sus casos asignados: <code>1</code>				
 			</p>
 ENDHTML
 

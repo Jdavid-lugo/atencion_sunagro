@@ -56,11 +56,11 @@ return [
   'index-6-months'                      => '6 mesi',
   'index-12-months'                     => '12 months',
   'index-tickets-share-per-category'    => 'Tickets condivisi per categoria',
-  'index-tickets-share-per-agent'       => 'Tickets condivisi per agente',
+  'index-tickets-share-per-agent'       => 'Tickets condivisi per funcionario',
   'index-categories'                    => 'Categorie',
   'index-category'                      => 'Categoria',
   'index-agents'                        => 'Agenti',
-  'index-agent'                         => 'Agente',
+  'index-agent'                         => 'Funcionario',
   'index-administrators'                => 'Amministratori',  //new
   'index-administrator'                 => 'Amministratore',  //new
   'index-users'                         => 'Utenti',
@@ -72,14 +72,14 @@ return [
   'index-month'                         => 'Mese',
   'index-performance-chart'             => 'In media, in quanti giorni risolvi un ticket?',
   'index-categories-chart'              => 'Tickets distrituiti per categoria',
-  'index-agents-chart'                  => 'Tickets distribuiti per agente',
+  'index-agents-chart'                  => 'Tickets distribuiti per funcionario',
 
 // tickets-admin/agent/____
-  'agent-index-title'             => 'Gestione Agente',
-  'btn-create-new-agent'          => 'Crea nuovo Agente',
+  'agent-index-title'             => 'Gestione Funcionario',
+  'btn-create-new-agent'          => 'Crea nuovo Funcionario',
   'agent-index-no-agents'         => 'Non ci sono agenti, ',
   'agent-index-create-new'        => 'Aggiungi agenti',
-  'agent-create-title'            => 'Aggiungi agente',
+  'agent-create-title'            => 'Aggiungi funcionario',
   'agent-create-add-agents'       => 'Aggiungi Agenti',
   'agent-create-no-users'         => 'Non ci sono account utente, crea prima un account utente.',
   'agent-create-select-user'      => 'Seleziona un account utente da aggiungere agli agenti',

@@ -16,7 +16,7 @@ return [
   'table-status'                     => 'Estado',
   'table-last-updated'               => 'Última Actualización',
   'table-priority'                   => 'Prioridad',
-  'table-agent'                      => 'Agente',
+  'table-agent'                      => 'Funcionario',
   'table-category'                   => 'Categoría',
 
   // Datatables
@@ -47,7 +47,7 @@ return [
   'btn-mark-complete'                => 'Marcar com Completo',
   'btn-submit'                       => 'Enviar',
 
-  'agent'                            => 'Agente',
+  'agent'                            => 'Funcionario',
   'category'                         => 'Categoría',
   'colon'                            => ': ',
   'comments'                         => 'Comentarios',
@@ -95,10 +95,10 @@ return [
   */
 
 // AgentsController
-  'agents-are-added-to-agents'                      => 'Agentes :names fueron añadidos a agentes',
+  'agents-are-added-to-agents'                      => 'Funcionarios :names fueron añadidos a funcionarios',
   'administrators-are-added-to-administrators'      => 'Administradores :names fueron añadidos a administradores', //New
   'agents-joined-categories-ok'                     => 'Te agregaste a categorías',
-  'agents-is-removed-from-team'                     => 'Eliminamos agente\s :name del equipo de agentes',
+  'agents-is-removed-from-team'                     => 'Eliminamos funcionario\s :name del equipo de funcionarios',
   'administrators-is-removed-from-team'             => 'Eliminamos administrador\es :name del equipo de administradores', // New
 
 // CategoriesController
@@ -136,7 +136,7 @@ return [
   'the-ticket-has-been-modified'     => 'El Caso fue modificado!',
   'the-ticket-has-been-deleted'      => 'El Caso :name fue borrado!',
   'the-ticket-has-been-completed'    => 'El Caso :name fue completado!',
-  'the-ticket-has-been-reopened'     => 'El tiquete :name fue reabierto!',
+  'the-ticket-has-been-reopened'     => 'El caso :name fue reabierto!',
   'you-are-not-permitted-to-do-this' => 'No tienes los permisos necesarios para realizar esta acción!',
 
  /*

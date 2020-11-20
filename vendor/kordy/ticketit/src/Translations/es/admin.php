@@ -6,7 +6,7 @@ return [
   *  Constants
   */
   'nav-settings'                  => 'Configuración',
-  'nav-agents'                    => 'Agentes',
+  'nav-agents'                    => 'Funcionarios',
   'nav-dashboard'                 => 'Dashboard',
   'nav-categories'                => 'Categorías',
   'nav-priorities'                => 'Prioridades',
@@ -20,7 +20,7 @@ return [
   'table-action'                  => 'Acción',
   'table-categories'              => 'Categorías',
   'table-join-category'           => 'Categorías Unidas',
-  'table-remove-agent'            => 'Eliminar de agentes',
+  'table-remove-agent'            => 'Eliminar de funcionarios',
   'table-remove-administrator'    => 'Eliminar de administradores', // New
 
   'table-slug'                    => 'Código',
@@ -59,30 +59,30 @@ return [
   'index-tickets-share-per-agent'       => 'Casos por empleado',
   'index-categories'                    => 'Categorias',
   'index-category'                      => 'Categoría',
-  'index-agents'                        => 'Agentes',
-  'index-agent'                         => 'Agente',
+  'index-agents'                        => 'Funcionarios',
+  'index-agent'                         => 'Funcionario',
   'index-administrators'                => 'Administradores',  //new
   'index-administrator'                 => 'Adinistrador',  //new
   'index-users'                         => 'Usuarios',
   'index-user'                          => 'Usuario',
-  'index-tickets'                       => 'Tiquetes',
+  'index-tickets'                       => 'Casos',
   'index-open'                          => 'Abierto',
   'index-closed'                        => 'Cerrado',
   'index-total'                         => 'Total',
   'index-month'                         => 'Mes',
-  'index-performance-chart'             => '¿Cuántos días en promedio toma resolver un tiquete?',
-  'index-categories-chart'              => 'Distribución de Tiquetes por Categoría',
-  'index-agents-chart'                  => 'Distribución de Tiquetes por Agente',
+  'index-performance-chart'             => '¿Cuántos días en promedio toma resolver un caso?',
+  'index-categories-chart'              => 'Distribución de Casos por Categoría',
+  'index-agents-chart'                  => 'Distribución de Casos por Funcionario',
 
 // Casos-admin/agent/____
-  'agent-index-title'             => 'Administración de Agentes',
-  'btn-create-new-agent'          => 'Crear un nuevo agente',
-  'agent-index-no-agents'         => 'No existen agentes, ',
-  'agent-index-create-new'        => 'Añadir agentes',
-  'agent-create-title'            => 'Añadir Agente',
-  'agent-create-add-agents'       => 'Añadir Agentes',
+  'agent-index-title'             => 'Administración de Funcionarios',
+  'btn-create-new-agent'          => 'Crear un nuevo funcionario',
+  'agent-index-no-agents'         => 'No existen funcionarios, ',
+  'agent-index-create-new'        => 'Añadir funcionarios',
+  'agent-create-title'            => 'Añadir Funcionario',
+  'agent-create-add-agents'       => 'Añadir Funcionarios',
   'agent-create-no-users'         => 'No existen cuentas de usuarios, crea cuentas de usuarios primero.',
-  'agent-create-select-user'      => 'Selecciona las cuentas de usuario para añadirlas como agentes',
+  'agent-create-select-user'      => 'Selecciona las cuentas de usuario para añadirlas como funcionarios',
 
 // Casos-admin/administrators/____
   'administrator-index-title'                   => 'Administración de Administradores',  //new
@@ -133,7 +133,7 @@ return [
   'btn-create-new-config'         => 'Añadir configuración nueva',
   'config-index-no-settings'      => 'No existen configuraciones,',
   'config-index-initial'          => 'Inicial',
-  'config-index-tickets'          => 'Tiquetes',
+  'config-index-tickets'          => 'Casos',
   'config-index-notifications'    => 'Notificaciones',
   'config-index-permissions'      => 'Permisos',
   'config-index-editor'           => 'Editor', //Added: 2016.01.14
