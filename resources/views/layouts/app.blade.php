@@ -57,10 +57,16 @@
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
-
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
+                                    <form id="create-user" action="{{ route('register') }}" method="GET" style="display: none;">
+                                        @csrf
+                                    </form>
+                                    <a class="dropdown-item" href="{{ route('register') }}"
+                                        onclick="event.preventDefault();document.getElementById('create-user').submit();">
+                                        {{ __('Crear Usuarios') }}
+                                    </a>
                                 </div>
                             </li>
                         @endguest
